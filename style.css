@@ -56,10 +56,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 
 .active{
     visibility: hidden;
+    opacity: 0;
 }
 
 .trailer video{
